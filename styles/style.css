@@ -18,6 +18,7 @@ body {
   width: 90%;
   margin: 5rem auto;
   border-radius: 1rem;
+
 }
 
 h3 {
@@ -25,9 +26,29 @@ h3 {
   text-align: center;
   font-weight: 800;
   line-height: normal;
+  line-height: 50px;
+}
+
+.primary-title {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+  line-height: normal;
+  line-height: 50px;
+}
+
+.secondary-title {
+  color: rgb(19, 19, 24);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .btn-primary {
+  width: 174px;
+  height: 52px;
   border-radius: 8px;
   background: rgb(255, 84, 0);
   padding: 16px 34px;
@@ -145,6 +166,152 @@ select {
   color: #13131880;
 
 }
-.select{
+
+.select {
   margin-right: 14px;
+}
+
+/* our popular travel style */
+.popular-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin-top: 100px;
+
+}
+
+.popular-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: space-between;
+  line-height: 26px;
+
+
+
+}
+
+.popular-item p,
+.popular-item li,
+.popular-item button {
+  text-align: left;
+  word-spacing: 5px;
+  margin-top: 24px;
+
+}
+
+.popular-item ul {
+  margin-left: 2rem;
+}
+
+.popular-item h3 {
+  text-align: left;
+}
+
+.popular-section img {
+  width: 100%;
+  height: 550px;
+}
+
+/* choose your destination styles */
+.your-destination p {
+  margin-bottom: 3rem;
+
+}
+
+.your-destination img {
+  width: 100%;
+  height: 300px;
+  filter: brightness(70%);
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 3rem 0;
+  gap: 1.5rem;
+}
+
+.row-2 {
+  grid-template-columns: 0.8fr 1.5fr 0.7fr;
+}
+
+.row-3 {
+  grid-template-columns: 0.75fr 1.25fr;
+}
+
+.country-card {
+  position: relative;
+}
+
+.country-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 35px;
+  transform: translate(-50%, -50%);
+}
+
+/* why choose section styles */
+
+.why-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+}
+
+.why-item {
+  box-sizing: border-box;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  border-radius: 16px;
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px 55px 32px 32px;
+}
+
+.why-items h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.why-items p{
+  text-align: left;
+}
+
+.why-item2 {
+  box-sizing: border-box;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  border-radius: 16px;
+  background: rgba(41, 206, 246, 0.05);
+  padding: 32px 55px 32px 32px;
+}
+
+.why-items2 h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.why-items2 p{
+  text-align: left;
+}
+
+.why-item3 {
+  box-sizing: border-box;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  border-radius: 16px;
+  background: rgba(233, 68, 68, 0.05);
+  padding: 32px 55px 32px 32px;
+  transform: translate(50%);
+  margin-top: 1.5rem;
+  
+}
+
+.why-items3 h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.why-items3 p{
+  text-align: left;
 }
