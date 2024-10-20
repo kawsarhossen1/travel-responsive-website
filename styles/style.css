@@ -47,7 +47,6 @@ h3 {
 }
 
 .btn-primary {
-  width: 174px;
   height: 52px;
   border-radius: 8px;
   background: rgb(255, 84, 0);
@@ -437,3 +436,9 @@ select {
   transform: translate(100%);
 
 }
+.see-all{
+  text-align: center;
+  font-size: 20px;
+  margin: 30px auto;
+}
+.see-all button{
