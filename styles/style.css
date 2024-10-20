@@ -277,7 +277,8 @@ select {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-.why-items p{
+
+.why-items p {
   text-align: left;
 }
 
@@ -293,7 +294,8 @@ select {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-.why-items2 p{
+
+.why-items2 p {
   text-align: left;
 }
 
@@ -305,13 +307,133 @@ select {
   padding: 32px 55px 32px 32px;
   transform: translate(50%);
   margin-top: 1.5rem;
-  
+
 }
 
 .why-items3 h4 {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-.why-items3 p{
+
+.why-items3 p {
   text-align: left;
+}
+
+/* deals and discount section styles */
+.tour-content {
+  border-radius: 16px;
+  background-image: url(../Images/Group\ 39.png);
+  padding: 6.6rem 11.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+
+}
+
+.tour-content2 {
+
+  border-radius: 16px;
+  background-image: url(../Images/Group\ 39.png);
+  padding: 6.6rem 11.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  margin-top: 1.2rem;
+  margin-bottom: 12rem;
+
+}
+
+.tour-container {
+  width: 579px;
+  height: 389px;
+  padding: 30px 77px 40px 50px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(1px);
+  transform: translate(100%);
+
+}
+
+.tour-icon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+.tour-icon i {
+  color: #FF5400;
+}
+
+.tour-text h3 {
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: #FF5400;
+
+}
+
+.tour-content2 {
+
+  border-radius: 16px;
+  background-image: url(../Images/Group\ 40.png);
+  padding: 6.6rem 11.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.tour-container2 {
+  width: 579px;
+  height: 389px;
+  padding: 30px 77px 40px 50px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(1px);
+  transform: translate(-16%);
+
+}
+
+.tour-content3 {
+
+  border-radius: 16px;
+  background-image: url(../Images/Group\ 40.png);
+  padding: 6.6rem 11.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+
+}
+
+.tour-container3 {
+  width: 579px;
+  height: 389px;
+  padding: 30px 77px 40px 50px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(1px);
+  transform: translate(100%);
+
 }
