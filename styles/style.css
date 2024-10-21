@@ -471,8 +471,75 @@ select {
 .place-video {
   border-radius: 16px;
   background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%, rgba(19, 19, 24, 0) 100%);
+
 }
 
 .place-video iframe {
   height: 424px;
+}
+
+/* newsletter section styles start */
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 84, 0);
+  border-radius: 16px;
+  padding: 40px 41px;
+  text-align: left;
+  gap: 1.5rem;
+
+}
+
+.newslatter-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.8rem;
+  text-align: left;
+}
+
+.newsletter-content input {
+  padding: 16px 20px;
+  width: 393px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+.save-70{
+  display: flex;
+  justify-content: flex-end;
+  transform: translate(1%, -150%);
+
+}
+.btn-travel {
+ 
+  padding: 2rem;
+  transform: rotate(-19.63deg);
+  border-radius: 16px;
+  border: none;
+  background: rgb(255, 84, 0);
+  
+}
+
+.btn-travel p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.8rem;
+  color: rgb(255, 255, 255);
+}
+
+.btn-travel h4 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+  color: rgb(255, 255, 255);
 }
