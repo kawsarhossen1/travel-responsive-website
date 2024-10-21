@@ -438,6 +438,7 @@ select {
   flex-direction: row;
   justify-content: space-between;
   line-height: 26px;
+  gap: 1.5rem;
 }
 
 .place-content {
@@ -469,7 +470,6 @@ select {
 }
 
 .place-video {
-  border-radius: 16px;
   background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%, rgba(19, 19, 24, 0) 100%);
 
 }
@@ -493,6 +493,7 @@ select {
   padding: 40px 41px;
   text-align: left;
   gap: 1.5rem;
+  
 
 }
 
@@ -513,20 +514,22 @@ select {
   line-height: 20px;
 
 }
-.save-70{
+
+.save-70 {
   display: flex;
   justify-content: flex-end;
   transform: translate(1%, -150%);
 
 }
+
 .btn-travel {
- 
+
   padding: 2rem;
   transform: rotate(-19.63deg);
   border-radius: 16px;
   border: none;
   background: rgb(255, 84, 0);
-  
+
 }
 
 .btn-travel p {
@@ -542,4 +545,39 @@ select {
   font-weight: 800;
   line-height: 2.5rem;
   color: rgb(255, 255, 255);
+}
+
+/*  Footer section styles start */
+.footer-section {
+  background: rgba(19, 19, 24, 0.05);
+  padding: 100px 0;
+}
+.footer-section .logo{
+  margin: 2rem auto;
+}
+.logo img{
+ opacity: 100%;
+}
+
+.social{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+}
+.social i{
+  height: 44px;
+  font-size: 1.5rem;
+}
+.footer-section hr{
+  margin: 2rem 0;
+}
+.copyright{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(19, 19, 24);
+  line-height: 19px;
+  margin-top: 50px;
 }
