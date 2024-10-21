@@ -182,7 +182,7 @@ select {
 .popular-item {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  gap: 1rem;
   justify-content: space-between;
   line-height: 26px;
 
@@ -401,7 +401,7 @@ select {
 .tour-content3 {
 
   border-radius: 16px;
-  background-image: url(../Images/Group\ 40.png);
+  background-image: url(../Images/Group\ 39.png);
   padding: 6.6rem 11.5rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -429,4 +429,50 @@ select {
   text-align: center;
   font-size: 20px;
   margin: 30px auto;
+}
+
+/* Simple Perfect Place styles*/
+
+.perfect-place {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 26px;
+}
+
+.place-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+
+
+}
+
+.place-content h3 {
+  text-align: left;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+
+.place-content p {
+  text-align: left;
+  line-height: 26px;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.place-content ul>li {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  color: rgb(19, 19, 24);
+}
+
+.place-video {
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%, rgba(19, 19, 24, 0) 100%);
+}
+
+.place-video iframe {
+  height: 424px;
 }
